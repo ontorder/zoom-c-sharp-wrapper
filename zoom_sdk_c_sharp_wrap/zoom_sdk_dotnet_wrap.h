@@ -28,7 +28,7 @@ namespace ZOOM_SDK_DOTNET_WRAP {
 		ISettingServiceDotNetWrap^ GetSettingServiceWrap();
 		ICustomizedUIMgrDotNetWrap^ GetCustomizedUIMgrWrap();
 		ICustomizedResourceHelperDotNetWrap^ CZoomSDKeDotNetWrap::RetrieveCustomizedResourceHelperWrap();
-		
+
 	private:
 		static CZoomSDKeDotNetWrap^ m_Instance = gcnew CZoomSDKeDotNetWrap;
 	};

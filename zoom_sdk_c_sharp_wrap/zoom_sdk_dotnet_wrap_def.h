@@ -8,19 +8,19 @@ namespace ZOOM_SDK_DOTNET_WRAP {
 	public enum class SDKError : int
 	{
 		SDKERR_SUCCESS = 0,///< Success Result
-		SDKERR_NO_IMPL,///< Not support this feature now 
-		SDKERR_WRONG_USEAGE,///< Wrong useage about this feature 
-		SDKERR_INVALID_PARAMETER,///< Wrong parameter 
-		SDKERR_MODULE_LOAD_FAILED,///< Load module failed 
-		SDKERR_MEMORY_FAILED,///< No memory allocated 
-		SDKERR_SERVICE_FAILED,///< Internal service error 
-		SDKERR_UNINITIALIZE,///< Not initialize before use 
+		SDKERR_NO_IMPL,///< Not support this feature now
+		SDKERR_WRONG_USEAGE,///< Wrong useage about this feature
+		SDKERR_INVALID_PARAMETER,///< Wrong parameter
+		SDKERR_MODULE_LOAD_FAILED,///< Load module failed
+		SDKERR_MEMORY_FAILED,///< No memory allocated
+		SDKERR_SERVICE_FAILED,///< Internal service error
+		SDKERR_UNINITIALIZE,///< Not initialize before use
 		SDKERR_UNAUTHENTICATION,///< Not Authentication before use
 		SDKERR_NORECORDINGINPROCESS,///< No recording in process
 		SDKERR_TRANSCODER_NOFOUND,///< can't find transcoder module
 		SDKERR_VIDEO_NOTREADY,///< Video service not ready
 		SDKERR_NO_PERMISSION,///< No premission to do this
-		SDKERR_UNKNOWN,///< Unknown error 
+		SDKERR_UNKNOWN,///< Unknown error
 		SDKERR_OTHER_SDK_INSTANCE_RUNNING,
 	};
 
@@ -100,7 +100,7 @@ namespace ZOOM_SDK_DOTNET_WRAP {
 		SDK_FIRST_VIEW,
 		SDK_SECOND_VIEW,
 	};
-	
+
 	public enum class AudioType : int
 	{
 		AUDIOTYPE_NONE,
@@ -156,7 +156,7 @@ namespace ZOOM_SDK_DOTNET_WRAP {
 
 	public enum class AnnotationToolType : int
 	{
-		ANNOTOOL_NONE_DRAWING,///<switch to mouse 
+		ANNOTOOL_NONE_DRAWING,///<switch to mouse
 
 		ANNOTOOL_PEN,
 		ANNOTOOL_HIGHLIGHTER,

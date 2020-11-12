@@ -56,7 +56,7 @@ private:\
 	static Classname##Wrap& GetInst(){static Classname##Wrap inst; return inst;};\
 public:
 
-#endif 
+#endif
 
 #define NORMAL_CLASS(Classname) \
 public:\

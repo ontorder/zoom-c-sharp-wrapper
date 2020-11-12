@@ -176,7 +176,7 @@ namespace ZOOM_SDK_DOTNET_WRAP {
 		StartParam4WithoutLogin^ withoutloginStart;
 	};
 
-	
+
 	public enum class ConnectionQuality : int
 	{
 		Conn_Quality_Unknow,

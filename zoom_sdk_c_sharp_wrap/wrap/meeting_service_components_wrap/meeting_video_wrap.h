@@ -10,8 +10,8 @@ NORMAL_CLASS(IMeetingVideoController)
 INIT_UNINIT_WITHEVENT_AND_OWNSERVICE(IMeetingVideoController, IMeetingServiceWrap)
 virtual SDKError SetEvent(IMeetingVideoCtrlEvent* pEvent)
 {
-	external_cb = pEvent;
-	return SDKERR_SUCCESS;
+    external_cb = pEvent;
+    return SDKERR_SUCCESS;
 }
 //virtual SDKError MuteVideo() = 0;
 DEFINE_FUNC_0(MuteVideo, SDKError)
