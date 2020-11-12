@@ -1,0 +1,16 @@
+﻿<config
+  SdkKey = "DcleT9KJlIlkcxmzQSpaxQ4uxDItcVBIdDra"
+  SdkSecret = "NIUc6jjU37nqCUDUZE3lbOLRcsbOyi5b7OCt"
+
+  UserName = "c#client"
+  MeetingNumber = "97898739669"
+  MeetingPassword = "M0RJM2p3ZS82b0pKSUh1YWRhZzJkdz09"
+
+  EnableAutoFullScreenVideoWhenJoinMeeting = "true"
+  HideSettingsDialog = "true"
+  EnableAlwaysMuteMicWhenJoinVoip = "true"
+  EnableAutoJoinAudio = "true"
+  EnableAutoTurnOffVideoWhenJoinMeeting = "true"
+  TurnAudioOff = "false"
+  TurnVideoOff = "true"
+/>
