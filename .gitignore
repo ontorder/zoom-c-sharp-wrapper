@@ -1,0 +1,11 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/Release
+/Debug
+/zoom_sdk_c_sharp_wrap/zoom_sdk_c_sharp_wrap.vcxproj.user
+/zoom_sdk_c_sharp_wrap/Release/
+app.aps
+/zoom_sdk_c_sharp_wrap/.vs/
+/bin/zoom_sdk_dotnet_wrap.dll.metagen
